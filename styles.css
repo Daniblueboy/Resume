@@ -192,6 +192,14 @@ body{
 	color:rgb(194, 194, 223);
   }
 
+  .resources ul{
+	display: flex;
+	justify-content: space-between;
+  }
+  .resources .li_wrap{
+	margin: 0px 2px;
+  }  
+
 
 @media screen and (max-width: 800px){
 	.resume_wrapper .resume_right .resume_namerole{
