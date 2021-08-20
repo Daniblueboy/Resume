@@ -17,7 +17,7 @@ body{
 .resume_wrapper{
 	display: flex;
 	width: 800px;
-	margin: 50px auto;
+	margin: 50px auto 0px auto;
 	background: #fff;
 	padding: 10px;
 }
@@ -196,9 +196,28 @@ body{
 	display: flex;
 	justify-content: space-between;
   }
-  .resources .li_wrap{
-	margin: 0px 2px;
-  }  
+  
+
+  footer {
+	display: flex;
+	width: 800px;
+	margin: 0px auto 50px auto;
+	background: #fff;
+	padding: 10px;
+ }
+ .foot{
+	margin: 50px auto;
+ }
+
+ .foot ul{
+	display: flex;
+	justify-content: space-between;
+  }
+
+   .foot .li_wrap{
+	margin: 0px 5px;
+  } 
+
 
 
 @media screen and (max-width: 800px){
@@ -210,12 +229,15 @@ body{
 	}
 	.resume_wrapper{
 		width: 95%;
-		margin: 10px auto;
+		margin: 10px auto 0px auto;
 		flex-direction: column;
 	}
 	.resume_wrapper .resume_left,
 	.resume_wrapper .resume_right{
 		width: 100%;
+	}
+	footer{
+		width: 95%;
 	}
 }
 
