@@ -196,17 +196,21 @@ body{
 	display: flex;
 	justify-content: space-between;
   }
-  
+  .bullet li{
+	margin: 5px;
+	list-style-type: disc;
+}
 
   footer {
 	display: flex;
 	width: 800px;
 	margin: 0px auto 50px auto;
-	background: #fff;
+	background: rgb(245, 242, 242);
 	padding: 10px;
  }
  .foot{
 	margin: 50px auto;
+	
  }
 
  .foot ul{
@@ -217,6 +221,11 @@ body{
    .foot .li_wrap{
 	margin: 0px 5px;
   } 
+  .foot h3{
+	text-align: center;
+	padding: 10px;
+	font-size: 100%;
+}
 
 
 
@@ -238,13 +247,11 @@ body{
 	}
 	footer{
 		width: 95%;
+		
 	}
 }
 
-.bullet li{
-	margin: 5px;
-	list-style-type: disc;
-}
+
 @media screen and (max-width: 424px){
 	.resume_wrapper .resume_right{
 		padding: 20px 30px;
