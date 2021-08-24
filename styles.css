@@ -96,9 +96,10 @@ body{
 
 .resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p{
 	position: relative;
-	width: 125px;
-    height: 20px;
+	width: 120px;
+    height: 10px;
     background: #fff;
+	border-radius: 5px;
 }
 
 .resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p span{	
